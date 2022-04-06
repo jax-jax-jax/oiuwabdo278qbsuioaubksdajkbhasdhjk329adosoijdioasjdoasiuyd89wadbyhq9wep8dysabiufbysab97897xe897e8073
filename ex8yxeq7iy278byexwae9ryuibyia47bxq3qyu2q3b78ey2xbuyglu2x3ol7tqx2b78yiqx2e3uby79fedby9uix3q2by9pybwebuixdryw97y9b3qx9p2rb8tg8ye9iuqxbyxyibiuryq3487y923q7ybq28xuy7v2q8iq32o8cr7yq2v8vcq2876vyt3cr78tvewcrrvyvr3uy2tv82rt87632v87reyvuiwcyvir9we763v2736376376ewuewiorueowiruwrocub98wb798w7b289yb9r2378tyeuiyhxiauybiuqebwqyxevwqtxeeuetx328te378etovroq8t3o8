@@ -361,7 +361,7 @@ local MainButton = MainPage.AddButton("Rejoin", function()
 end)
 
 ---------------
--- Combat Nigger
+-- Combat 
 local FirstButton = CombatPage.AddButton("Inf-Jump", function()
     local player = game.Players.LocalPlayer
     local spacedown = false
@@ -603,8 +603,8 @@ end)
 
 ---------------
 
-local SecondButton = AimlockPage.AddButton("Aimlock (E)", function()
-    _G.KEY = "e"
+local SecondButton = AimlockPage.AddButton("Aimlock (Q)", function()
+    _G.KEY = "Q"
     _G.PART = "LowerTorso"
     _G.PRED = 0.037
     _G.Frame = Vector3.new(0,0.53,0)
@@ -793,7 +793,7 @@ local SecondButton = AimlockPage.AddButton("Aimlock (E)", function()
         function(Chat)
             if Chat == "Code:1030" then
     
-            _G.KEY = "e"
+            _G.KEY = "q"
             _G.PART = "UpperTorso"
             _G.PRED = 0.037
             _G.Frame = Vector3.new(0,0.0,0)
@@ -2114,7 +2114,7 @@ local SecondButton = FunstuffPage.AddButton("Super Jump (H to toggle, 'Time eras
         end
     end)	
 end)
-local SecondButton = FunstuffPage.AddButton("Fake macro (Q)", function()
+local SecondButton = FunstuffPage.AddButton("Fake macro (M)", function()
     plr = game:GetService('Players').LocalPlayer
     down = true
      
@@ -2133,8 +2133,8 @@ local SecondButton = FunstuffPage.AddButton("Fake macro (Q)", function()
     end
      
     function onSelected(mouse)
-        mouse.KeyDown:connect(function(m) if m:lower()=="q"then onButton1Down(mouse)end end)
-        mouse.KeyUp:connect(function(m) if m:lower()=="q"then onButton1Up(mouse)end end)
+        mouse.KeyDown:connect(function(m) if m:lower()=="m"then onButton1Down(mouse)end end)
+        mouse.KeyUp:connect(function(m) if m:lower()=="m"then onButton1Up(mouse)end end)
     end
     onSelected(game.Players.LocalPlayer:GetMouse())
 end)
@@ -2336,7 +2336,7 @@ local TargetButton = TargetPage.AddButton("Target UI", function()
 end)
 
 local autofarmbutton = autofarm.AddButton("ATM Autofarm coming soon", function()
-    setclipboard("Niggers")
+    setclipboard("")
 end)
 
 local autofarmbutton = autofarm.AddButton("Muscle Autofarm (reset when done)", function()
