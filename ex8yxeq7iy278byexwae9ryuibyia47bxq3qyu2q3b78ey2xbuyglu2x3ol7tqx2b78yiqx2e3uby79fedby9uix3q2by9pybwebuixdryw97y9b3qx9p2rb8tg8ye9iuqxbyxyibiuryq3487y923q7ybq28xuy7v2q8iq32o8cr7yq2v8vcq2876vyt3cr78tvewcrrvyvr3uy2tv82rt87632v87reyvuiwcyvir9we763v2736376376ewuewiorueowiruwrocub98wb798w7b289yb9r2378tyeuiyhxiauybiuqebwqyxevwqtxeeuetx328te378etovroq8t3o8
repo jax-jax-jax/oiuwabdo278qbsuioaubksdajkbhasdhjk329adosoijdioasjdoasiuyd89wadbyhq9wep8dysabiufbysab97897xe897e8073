@@ -604,7 +604,7 @@ end)
 ---------------
 
 local SecondButton = AimlockPage.AddButton("Aimlock (Q)", function()
-    _G.KEY = "Q"
+    _G.KEY = "q"
     _G.PART = "LowerTorso"
     _G.PRED = 0.037
     _G.Frame = Vector3.new(0,0.53,0)
